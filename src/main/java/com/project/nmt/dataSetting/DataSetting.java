@@ -30,7 +30,7 @@ import org.springframework.boot.json.JsonParserFactory;
 //http://www.kamis.or.kr/service/price/xml.do?action=periodProductList&p_productclscode=02&p_startday=2015-10-01&p_endday=2015-12-01&p_itemcategorycode=200&p_itemcode=231&p_kindcode=01&p_productrankcode=04&p_countrycode=1101&p_convert_kg_yn=Y&p_cert_key=111&p_cert_id=222&p_returntype=json
 
 @RestController
-public class dataSetting {
+public class DataSetting {
 	String API = "ef02eb73-7007-4884-8401-e1bee7361066";
 	String keyword[] = { "고구마", "감자", "대파", "시금치", "양파", "깻잎", "고추", "파프리카", "호박", "미나리" };
 	String categoryCode[] = { "100", "100", "200", "200", "200", "200", "200", "200", "200", "200" };
